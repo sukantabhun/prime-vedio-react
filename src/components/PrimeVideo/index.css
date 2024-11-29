@@ -2,15 +2,37 @@
   background-color: #000000;
   color: #ffffff;
   width: 100vw;
+  min-height: 100vh;
 }
 .prime-banner {
   width: 100vw;
   max-height: 450px;
 }
-.prime-vedio-container {
-  padding: 10px 40px 10px 40px;
-  width: 100vw;
+.prime-video-container {
+  padding: 10px 40px;
+  width: 100vw !important;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
+}
+.slick-track {
+  width: 90vw !important;
+  display: flex;
+  column-gap: 25px;
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.movie-item {
+  width: 100%;
+  height: auto;
+}
+
+.slick-track {
+  display: flex;
+  justify-content: center;
 }
